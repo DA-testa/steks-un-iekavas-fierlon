@@ -35,6 +35,7 @@ def main():
     else:
         print("Invalid choice")
         return
+    
     mismatch = find_mismatch(text)
     print(mismatch)
     
