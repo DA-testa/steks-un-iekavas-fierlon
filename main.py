@@ -25,7 +25,8 @@ def find_mismatch(text):
     return "Success"
             
 def main():
-    choice = input("Enter F or I")
+    choice = 2
+    #choice = input("Enter F or I")
     #if choice == 'F':
     if 1==1:
         file_name = input("Enter the filename:")
