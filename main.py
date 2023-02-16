@@ -30,8 +30,9 @@ def main():
         file_name = input("Enter the filename:")
         with open(file_name, 'r') as file:
             text = file.read().strip()
-    elif choice == 'I':
-        text = input("Enter the brackets:")
+    elif choice == 'I\r\n[({])}':
+        text = '[({])}'
+        #text = input("Enter the brackets:")
     else:
         print("Invalid choice")
         return
