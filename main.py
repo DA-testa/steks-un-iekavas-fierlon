@@ -27,13 +27,16 @@ def find_mismatch(text):
 def main():
     choice = input("Enter F or I")
     if choice == 'F':
-        file_name = input("Enter the filename:")
+        file_name = input()
+        #file_name = input("Enter the filename:")
         with open(file_name, 'r') as file:
             text = file.read().strip()
     elif choice == 'I':
-        text = input("Enter the brackets:")
+        text = input()
+        #text = input("Enter the brackets:")
     else:
-        print("Invalid choice")
+        print()
+        #print("Invalid choice")
         return
     mismatch = find_mismatch(text)
     print(mismatch)
