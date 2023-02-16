@@ -22,6 +22,7 @@ def find_mismatch(text):
                 return i+1
     if len(opening_brackets_stack)>0:
         return opening_brackets_stack[0].position
+    return "Success"
             
 def main():
     choice = input("Enter F or I")
